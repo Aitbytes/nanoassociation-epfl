@@ -1,0 +1,1797 @@
+[
+  {
+    "id": 1,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "You met her at a coffee shop yesterday. She laughed at your pajama joke and gave you her number. This is your first text.",
+    "exchange": [
+      {"sender": "user", "message": "That pajama store still waiting on your review 👀"},
+      {"sender": "agent", "message": "haha omg I forgot about that"},
+      {"sender": "user", "message": "I didn't. Thursday evening work for you?"},
+      {"sender": "agent", "message": "yeah actually that could work"}
+    ],
+    "principle": "callback opener + assume the date quickly",
+    "failure_variant": "Hey! It was so nice meeting you yesterday, you seemed really cool :) How's your day going?",
+    "failure_reason": "Generic, high investment, no callback, opens with a boring question — indistinguishable from 50 other texts she received"
+  },
+  {
+    "id": 2,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "You met her at a bookstore. She was reading a thriller novel and you teased her about her taste. She gave you her number.",
+    "exchange": [
+      {"sender": "user", "message": "Still defending that mediocre thriller I hope"},
+      {"sender": "agent", "message": "excuse me it's a masterpiece"},
+      {"sender": "user", "message": "Bold claim. Convince me over coffee Saturday"},
+      {"sender": "agent", "message": "lol ok deal"}
+    ],
+    "principle": "callback to shared moment + assume the date with a light challenge",
+    "failure_variant": "Hi! This is the guy from the bookstore. Hope you're having a great week!",
+    "failure_reason": "No callback, no identity established, opens with small talk — she already forgot who you are"
+  },
+  {
+    "id": 3,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "You met her at a bar. Great conversation, she gave you her number. She replies to your opener with a one-word answer.",
+    "exchange": [
+      {"sender": "user", "message": "The bartender still judging your drink order probably"},
+      {"sender": "agent", "message": "lol"},
+      {"sender": "user", "message": "Friday or Saturday work better for you?"},
+      {"sender": "agent", "message": "Saturday I guess"},
+      {"sender": "user", "message": "Good. 7pm, that cocktail bar on Main. Don't order anything weird"},
+      {"sender": "agent", "message": "haha ok"}
+    ],
+    "principle": "don't chase low investment — stay brief, assume date, add light tease at the end",
+    "failure_variant": "Haha yeah! So what have you been up to since? I feel like we had such a great convo, would love to hang sometime if you're down?",
+    "failure_reason": "Chasing her low energy with high investment, hedging with 'if you're down' — gives her all the power"
+  },
+  {
+    "id": 4,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "UK",
+    "setup": "You met her on the Tube platform. Bonded over a delayed train. She gave you her number.",
+    "exchange": [
+      {"sender": "user", "message": "TfL delivered again I see. My commute was a dream"},
+      {"sender": "agent", "message": "haha mine too, obviously"},
+      {"sender": "user", "message": "Drinks Thursday to debrief properly?"},
+      {"sender": "agent", "message": "yeah go on then"}
+    ],
+    "principle": "callback to shared frustration + casual British assume-the-date energy",
+    "failure_variant": "Hey it was lovely meeting you! Hope the rest of your commute wasn't too bad :) Maybe we could hang out sometime?",
+    "failure_reason": "Hedges with 'maybe', no callback energy, overly polite and forgettable"
+  },
+  {
+    "id": 5,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "You met her at a farmer's market. She was debating which hot sauce to buy and you gave her your opinion confidently.",
+    "exchange": [
+      {"sender": "user", "message": "Hopefully you went with the right one"},
+      {"sender": "agent", "message": "obviously. my eggs were amazing this morning"},
+      {"sender": "user", "message": "Told you. Wednesday evening — you can thank me properly"},
+      {"sender": "agent", "message": "ok bold but yes"}
+    ],
+    "principle": "callback + playful frame that you're owed gratitude, assume date",
+    "failure_variant": "Hey! This is the hot sauce guy haha. Did you end up enjoying it? Would be fun to meet up sometime if you're interested!",
+    "failure_reason": "Labels himself awkwardly, asks permission with 'if you're interested' — needy framing"
+  },
+  {
+    "id": 6,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "You met her at a yoga class. She was flirty in person. Texts back enthusiastically then goes quiet for a day.",
+    "exchange": [
+      {"sender": "user", "message": "Your downward dog form is still under review"},
+      {"sender": "agent", "message": "haha rude!! it's perfect"},
+      {"sender": "user", "message": "Thursday evening, we'll debate it"},
+      {"sender": "agent", "message": "maybe!"},
+      {"sender": "user", "message": "I'll take that as a yes. 7pm works"},
+      {"sender": "agent", "message": "ok fine yes"}
+    ],
+    "principle": "don't accept ambiguous maybe — reframe it as a yes with confidence, not pressure",
+    "failure_variant": "Haha I'm sure it is! So are you free this week? No pressure if not, totally understand if you're busy :)",
+    "failure_reason": "Pre-emptively removes his own frame, qualifies the ask repeatedly — communicates low confidence"
+  },
+  {
+    "id": 7,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Met her at a gallery opening. Debated whether a particular abstract painting looked like a potato. She gave you her number laughing.",
+    "exchange": [
+      {"sender": "user", "message": "Still thinking it was a potato"},
+      {"sender": "agent", "message": "it was NOT a potato 😭"},
+      {"sender": "user", "message": "Convince me Saturday afternoon"},
+      {"sender": "agent", "message": "challenge accepted"}
+    ],
+    "principle": "callback to specific funny moment + frame it as her proving something to you",
+    "failure_variant": "Hey it's the gallery guy! Had such a fun time talking to you. Hope we can meet up again soon maybe?",
+    "failure_reason": "Identifies himself generically, hedges with 'maybe', no pull from the shared moment"
+  },
+  {
+    "id": 8,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Met her at a gym. She asked you about a piece of equipment and the conversation lasted 10 minutes.",
+    "exchange": [
+      {"sender": "user", "message": "Hope the cable machine didn't beat you"},
+      {"sender": "agent", "message": "I dominated it actually"},
+      {"sender": "user", "message": "Impressive. Prove it Friday evening"},
+      {"sender": "agent", "message": "haha ok you're on"}
+    ],
+    "principle": "callback + light challenge framing to set up the date",
+    "failure_variant": "Hi! This is the guy from the gym. It was really nice talking to you today! Let me know if you'd ever want to hang out!",
+    "failure_reason": "Vague invitation, no callback energy, 'let me know' puts all initiative on her"
+  },
+  {
+    "id": 9,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "Met her at a concert. Great energy. She texts back 48 hours later with almost nothing.",
+    "exchange": [
+      {"sender": "user", "message": "That encore was worth the wait"},
+      {"sender": "agent", "message": "ya"},
+      {"sender": "user", "message": "Saturday or Sunday better for you?"},
+      {"sender": "agent", "message": "idk maybe saturday"},
+      {"sender": "user", "message": "Saturday it is. 6pm, that bar near the venue"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "match her low investment — don't over-explain, just move to logistics efficiently",
+    "failure_variant": "Heyy! Sorry if I'm bothering you, just wanted to say it was amazing meeting you! Would you maybe want to get drinks sometime? No worries if not!",
+    "failure_reason": "Apologizes for existing, double-hedges with 'maybe' and 'no worries if not' — screams desperation"
+  },
+  {
+    "id": 10,
+    "scenario_type": "cold_approach_follow_up",
+    "difficulty": "medium",
+    "archetype": "warm",
+    "cultural_context": "Germany",
+    "setup": "Met her at a flea market in Berlin. She was haggling over a vintage lamp. You helped her negotiate.",
+    "exchange": [
+      {"sender": "user", "message": "Hope the lamp looks good in its new home"},
+      {"sender": "agent", "message": "it's perfect actually, you have good taste"},
+      {"sender": "user", "message": "I know. Thursday coffee so you can tell me more about that?"},
+      {"sender": "agent", "message": "haha ok yes"}
+    ],
+    "principle": "callback + accept the compliment without deflecting, assume date",
+    "failure_variant": "Haha thanks so much for your help today! That was really fun :) Let me know if you ever want to grab coffee!",
+    "failure_reason": "'Let me know' is passive — puts the burden on her, signals low initiative"
+  },
+  {
+    "id": 11,
+    "scenario_type": "app_opener",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Her profile says she's a nurse and her last photo is on a mountain trail.",
+    "exchange": [
+      {"sender": "user", "message": "You either fix people or break them on that trail"},
+      {"sender": "agent", "message": "lmao both honestly"},
+      {"sender": "user", "message": "Thought so. I'm saving the trail story for Wednesday"},
+      {"sender": "agent", "message": "Wednesday huh, confident"}
+    ],
+    "principle": "observation-based opener + move toward date without excessive chat",
+    "failure_variant": "Hey! You're gorgeous 😍 Looks like you love the outdoors! What trail is that?",
+    "failure_reason": "Compliment on looks is generic, question is low-effort, no tension created"
+  },
+  {
+    "id": 12,
+    "scenario_type": "app_opener",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Her bio says 'will fight you for the last slice of pizza'.",
+    "exchange": [
+      {"sender": "user", "message": "I've been warned"},
+      {"sender": "agent", "message": "good you should be"},
+      {"sender": "user", "message": "Settle it properly. Pizza place Friday?"},
+      {"sender": "agent", "message": "now we're talking"}
+    ],
+    "principle": "use her own bio energy against her playfully, go to date fast",
+    "failure_variant": "Haha love your bio! I'm a big pizza fan too! What's your favorite topping?",
+    "failure_reason": "Matches her surface-level energy but adds nothing, goes into small talk instead of date direction"
+  },
+  {
+    "id": 13,
+    "scenario_type": "app_opener",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She matches but gives one-word answers to everything. Her profile has a photo at what looks like a rooftop bar.",
+    "exchange": [
+      {"sender": "user", "message": "You look like you've got opinions on rooftop bars"},
+      {"sender": "agent", "message": "lol"},
+      {"sender": "user", "message": "Good. Saturday evening — I know a good one"},
+      {"sender": "agent", "message": "sure"},
+      {"sender": "user", "message": "7pm. I'll send the address closer to the time"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "when she gives minimal investment, don't match her with more investment — stay efficient and close",
+    "failure_variant": "Haha do you like rooftops? I love them! We should definitely go to one sometime, it would be so fun!",
+    "failure_reason": "Enthusiasm mismatch — she's giving nothing, he's giving everything — breaks energy matching"
+  },
+  {
+    "id": 14,
+    "scenario_type": "app_opener",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Her first photo is her holding a trophy at what looks like a trivia night.",
+    "exchange": [
+      {"sender": "user", "message": "Let me guess — you argued for credit on every answer"},
+      {"sender": "agent", "message": "I contributed strategically"},
+      {"sender": "user", "message": "I'm sure. Trivia rematch Thursday?"},
+      {"sender": "agent", "message": "you're on"}
+    ],
+    "principle": "assumption opener that teases her, pivot quickly to a date with relevant activity",
+    "failure_variant": "Oh wow you won trivia! That's so impressive, I could never do that. What's your strategy?",
+    "failure_reason": "Puts her on a pedestal immediately, asks a question that leads to more small talk, not a date"
+  },
+  {
+    "id": 15,
+    "scenario_type": "app_opener",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "Her bio says 'ask me about my sourdough starter'. Profile is cute and playful.",
+    "exchange": [
+      {"sender": "user", "message": "I'm not asking about the sourdough"},
+      {"sender": "agent", "message": "EXCUSE ME"},
+      {"sender": "user", "message": "You can tell me about it over coffee. Wednesday?"},
+      {"sender": "agent", "message": "fine. yes. but the starter is coming up"}
+    ],
+    "principle": "subvert her expectation from her bio, create tension, assume the date",
+    "failure_variant": "Haha ok so tell me about your sourdough starter! How long have you had it?",
+    "failure_reason": "Takes the bait of her bio too literally — she's had this conversation 100 times, no differentiation"
+  },
+  {
+    "id": 16,
+    "scenario_type": "app_opener",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She responds enthusiastically to the opener, then suddenly goes cold when you mention meeting up.",
+    "exchange": [
+      {"sender": "user", "message": "Your travel photos look like you plan these or you just get lucky?"},
+      {"sender": "agent", "message": "both honestly! I love spontaneous trips"},
+      {"sender": "user", "message": "Good. Spontaneous drinks Friday?"},
+      {"sender": "agent", "message": "oh haha I'm pretty busy lately"},
+      {"sender": "user", "message": "No worries. When's a better week for you?"},
+      {"sender": "agent", "message": "probably next week?"},
+      {"sender": "user", "message": "Tuesday or Wednesday?"},
+      {"sender": "agent", "message": "Wednesday works"}
+    ],
+    "principle": "don't chase a soft no — stay neutral, reframe, and give her a binary choice to close",
+    "failure_variant": "Oh that's ok! We can talk more for now and plan something when you're less busy! What have you been up to?",
+    "failure_reason": "Retreats into chat mode — validates her busyness excuse and delays indefinitely"
+  },
+  {
+    "id": 17,
+    "scenario_type": "app_opener",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "France",
+    "setup": "French app match. Her profile photo is at a Parisian café. Bio is minimal.",
+    "exchange": [
+      {"sender": "user", "message": "Tu as l'air d'être une habituée de ce café"},
+      {"sender": "agent", "message": "plus ou moins, pourquoi?"},
+      {"sender": "user", "message": "Curieux de nature. Jeudi soir tu es libre?"},
+      {"sender": "agent", "message": "peut-être oui"}
+    ],
+    "principle": "French cultural context: minimal text, assume the date early, avoid over-enthusiasm",
+    "failure_variant": "Bonjour! Tu es très belle sur tes photos! Tu aimes les cafés? Moi aussi!",
+    "failure_reason": "Generic compliment, surface-level question — no differentiation, high enthusiasm reads as needy in French dating culture"
+  },
+  {
+    "id": 18,
+    "scenario_type": "app_opener",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Her profile has a photo of her at a vineyard and her bio says 'amateur sommelier'.",
+    "exchange": [
+      {"sender": "user", "message": "Amateur is doing a lot of work in that bio"},
+      {"sender": "agent", "message": "I know more than most professionals, just saying"},
+      {"sender": "user", "message": "Prove it. Wine bar Friday?"},
+      {"sender": "agent", "message": "now I have to go"}
+    ],
+    "principle": "light challenge on her self-description + assume date with relevant activity",
+    "failure_variant": "Oh wow that's so cool you know about wine! I'd love to learn. What's your favorite?",
+    "failure_reason": "Instant one-down positioning — frames himself as student, her as teacher, no tension"
+  },
+  {
+    "id": 19,
+    "scenario_type": "app_opener",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Her bio: 'dog mom, brunch enthusiast, probably too competitive at board games'.",
+    "exchange": [
+      {"sender": "user", "message": "The board game warning is the most honest thing I've read on here"},
+      {"sender": "agent", "message": "I believe in full disclosure 😂"},
+      {"sender": "user", "message": "Respect. Saturday afternoon — I'll bring the game, you bring the competitiveness"},
+      {"sender": "agent", "message": "deal, don't say I didn't warn you"}
+    ],
+    "principle": "pick one element from her bio, acknowledge it genuinely, use it as a date vehicle",
+    "failure_variant": "Haha love your bio! Dogs AND brunch AND board games?? We would get along so well! What kind of dog do you have?",
+    "failure_reason": "Tries to bond with everything at once, ends in a small talk question — no momentum toward a date"
+  },
+  {
+    "id": 20,
+    "scenario_type": "app_opener",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She matched but has given nothing but 'haha' and 'lol' to every message.",
+    "exchange": [
+      {"sender": "user", "message": "You seem like the kind of person who has strong opinions on bad movies"},
+      {"sender": "agent", "message": "lol"},
+      {"sender": "user", "message": "Friday evening — prove me right or wrong"},
+      {"sender": "agent", "message": "haha ok"},
+      {"sender": "user", "message": "Good. 7pm at [bar]. You good with that?"},
+      {"sender": "agent", "message": "yeah sure"}
+    ],
+    "principle": "dead texter — don't try to create banter that isn't there, move quickly to logistics and confirm",
+    "failure_variant": "haha ok so tell me more about yourself! What do you do for fun? I feel like we could have a great conversation 😊",
+    "failure_reason": "Rewards her dead engagement with more chat — should be moving to close, not deepening a non-existent conversation"
+  },
+  {
+    "id": 21,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "You had a good exchange 2 weeks ago, she went quiet after you asked about meeting up. No response.",
+    "exchange": [
+      {"sender": "user", "message": "Still alive I assume"},
+      {"sender": "agent", "message": "haha yes sorry been insane"},
+      {"sender": "user", "message": "This week better?"},
+      {"sender": "agent", "message": "yeah actually, Thursday?"},
+      {"sender": "user", "message": "Thursday works. 7pm?"},
+      {"sender": "agent", "message": "perfect"}
+    ],
+    "principle": "re-engagement should be short, light, non-accusatory — one sentence max, then go straight to logistics",
+    "failure_variant": "Hey... I noticed you haven't replied in a while. Did I say something wrong? Would still love to meet up if you're interested, no pressure at all!",
+    "failure_reason": "Apologizes preemptively, sounds anxious, gives her guilt-free exit with 'no pressure' — signals desperation"
+  },
+  {
+    "id": 22,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She ghosted for 3 weeks. Comes back on her own with a 'hey!'.",
+    "exchange": [
+      {"sender": "agent", "message": "hey!"},
+      {"sender": "user", "message": "Hey"},
+      {"sender": "agent", "message": "how have you been?"},
+      {"sender": "user", "message": "Good. You free this week?"},
+      {"sender": "agent", "message": "yes actually I am"},
+      {"sender": "user", "message": "Thursday evening works for me"},
+      {"sender": "agent", "message": "yeah let's do it"}
+    ],
+    "principle": "when she re-initiates after ghosting, stay neutral — don't punish, don't reward excessively, go to logistics",
+    "failure_variant": "Omg hey!! I was wondering what happened to you! I missed talking to you, how have you been? What have you been up to?",
+    "failure_reason": "Rewards the ghost with high enthusiasm — signals that disappearing works on you, resets frame to her favor"
+  },
+  {
+    "id": 23,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Good chat 10 days ago, she went quiet after a busy week she mentioned. Re-engaging now.",
+    "exchange": [
+      {"sender": "user", "message": "Assuming that insane week finally ended"},
+      {"sender": "agent", "message": "finally yes 😮‍💨"},
+      {"sender": "user", "message": "Good. Thursday?"},
+      {"sender": "agent", "message": "yes please"}
+    ],
+    "principle": "callback to her stated reason for going quiet — shows you listened, non-accusatory, immediate close",
+    "failure_variant": "Hey! Haven't heard from you in a while. Hope your week calmed down? Would still love to hang sometime if you're up for it!",
+    "failure_reason": "Hedges again with 'if you're up for it' — restates her excuse as if validating it instead of moving forward"
+  },
+  {
+    "id": 24,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She ghosted twice. Each time she came back with enthusiasm, then disappeared again after a date was mentioned.",
+    "exchange": [
+      {"sender": "user", "message": "Last attempt — this week or next?"},
+      {"sender": "agent", "message": "omg I'm so sorry, next week!"},
+      {"sender": "user", "message": "Tuesday or Wednesday?"},
+      {"sender": "agent", "message": "Wednesday"},
+      {"sender": "user", "message": "7pm. Confirm closer to the day"},
+      {"sender": "agent", "message": "yes definitely, thank you for being patient"}
+    ],
+    "principle": "if she's a serial ghoster, one final binary choice is appropriate — no more energy spent without commitment",
+    "failure_variant": "Hey! I know you've been really busy and I totally get it. I'd still love to meet up if you ever have time, seriously no rush!",
+    "failure_reason": "After repeated ghosting, this response reinforces that she can disappear with no consequence — no urgency created"
+  },
+  {
+    "id": 25,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "medium",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She went cold mid-conversation when topics got more personal. Two weeks later she re-engages asking a question about something you said earlier.",
+    "exchange": [
+      {"sender": "agent", "message": "wait did you end up trying that restaurant you mentioned?"},
+      {"sender": "user", "message": "Not yet. Join me and find out"},
+      {"sender": "agent", "message": "haha ok sure"},
+      {"sender": "user", "message": "Saturday?"},
+      {"sender": "agent", "message": "works for me"}
+    ],
+    "principle": "when she re-engages, don't reference the gap — just pick up and move to a date",
+    "failure_variant": "Oh hey! It's been a while, I wasn't sure if you were still interested. Yeah I haven't tried it yet, have you? Maybe we could go together?",
+    "failure_reason": "Expresses insecurity about the gap, hedges with 'maybe' — needy framing after she came back to him"
+  },
+  {
+    "id": 26,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "She was enthusiastic, then work got crazy for a week. She reaches back out apologizing.",
+    "exchange": [
+      {"sender": "agent", "message": "Hey sorry I disappeared, work was insane"},
+      {"sender": "user", "message": "All good. This week better?"},
+      {"sender": "agent", "message": "yes much better"},
+      {"sender": "user", "message": "Thursday evening?"},
+      {"sender": "agent", "message": "yes! I'd love that"}
+    ],
+    "principle": "accept her apology without dwelling on it — move immediately to logistics",
+    "failure_variant": "Oh no worries at all! I totally understand, work can be crazy for me too! It's fine, no stress! So how have you been lately?",
+    "failure_reason": "Over-validates the excuse, delays getting back to the point — more chat instead of immediate date close"
+  },
+  {
+    "id": 27,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She was hot, agreed to a date, cancelled day-of with a vague excuse, then went quiet for 2 weeks.",
+    "exchange": [
+      {"sender": "user", "message": "Reschedule or no?"},
+      {"sender": "agent", "message": "yes I'm sorry, been going through a lot"},
+      {"sender": "user", "message": "Next week work?"},
+      {"sender": "agent", "message": "yeah, what day were you thinking?"},
+      {"sender": "user", "message": "Tuesday"},
+      {"sender": "agent", "message": "Tuesday works"}
+    ],
+    "principle": "after a cancel + ghost combo, re-engage with a direct question — no lecture, no guilt, no emotion",
+    "failure_variant": "Hey... I was pretty surprised you cancelled and then I didn't hear from you. I hope you're ok. I really liked talking to you and I'd still like to meet if you're open to it.",
+    "failure_reason": "Expresses hurt, re-qualifies himself, gives her emotional labor to process — overly invested after being cancelled on"
+  },
+  {
+    "id": 28,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "You had one great text exchange that ended with no clear close. A week has passed.",
+    "exchange": [
+      {"sender": "user", "message": "We never finished that debate"},
+      {"sender": "agent", "message": "omg what debate"},
+      {"sender": "user", "message": "The one we'll have Thursday. 7pm?"},
+      {"sender": "agent", "message": "haha smooth. yes ok"}
+    ],
+    "principle": "re-engage with a callback to shared energy, use the re-engagement to go directly to a date",
+    "failure_variant": "Hey! We had such a fun conversation a while back. Would you ever want to grab drinks and continue it? Let me know!",
+    "failure_reason": "'Let me know' is passive, 'would you ever' is weak framing — she's not going to plan this for you"
+  },
+  {
+    "id": 29,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "medium",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She went cold after you proposed a specific venue. No explanation. 3 weeks later you try once more.",
+    "exchange": [
+      {"sender": "user", "message": "Different venue if that one didn't work for you"},
+      {"sender": "agent", "message": "oh actually that place is fine"},
+      {"sender": "user", "message": "This week then. Thursday?"},
+      {"sender": "agent", "message": "yeah ok"}
+    ],
+    "principle": "offer a practical reason for the silence (venue issue), lower the barrier, close fast",
+    "failure_variant": "Hey, I feel like you disappeared after I mentioned that place — did I do something wrong? I still want to meet up if you do...",
+    "failure_reason": "Interprets her silence as rejection, asks her to explain herself — anxious frame that makes her uncomfortable"
+  },
+  {
+    "id": 30,
+    "scenario_type": "re_engagement_after_silence",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She went quiet but likes one of your Instagram posts a week later.",
+    "exchange": [
+      {"sender": "user", "message": "The Instagram like is noted 👀"},
+      {"sender": "agent", "message": "haha busted"},
+      {"sender": "user", "message": "Friday?"},
+      {"sender": "agent", "message": "yes haha ok"}
+    ],
+    "principle": "use a social media signal as a light callback re-opener — she's signaling interest, close fast",
+    "failure_variant": "Omg hey! I saw you liked my photo, that made me so happy! I've been thinking about you, how are you doing?",
+    "failure_reason": "Reveals too much emotional investment from a like — 'that made me so happy' is disproportionate and needy"
+  },
+  {
+    "id": 31,
+    "scenario_type": "date_setting",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Good rapport established. She's been responsive. Time to set the date.",
+    "exchange": [
+      {"sender": "user", "message": "Thursday or Friday work for you?"},
+      {"sender": "agent", "message": "Thursday!"},
+      {"sender": "user", "message": "Good. 7pm, that wine bar on 5th. You know it?"},
+      {"sender": "agent", "message": "I do! Perfect"}
+    ],
+    "principle": "binary date option + specific venue + confirm — don't leave logistics open-ended",
+    "failure_variant": "So we should definitely hang out soon! Are you free sometime next week maybe? Or the week after? Whatever works for you!",
+    "failure_reason": "Completely open-ended, puts all decision-making on her, lack of specificity signals indecisiveness"
+  },
+  {
+    "id": 32,
+    "scenario_type": "date_setting",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She says she's free 'sometime this week'. You need to nail down specifics.",
+    "exchange": [
+      {"sender": "agent", "message": "I'm pretty free this week"},
+      {"sender": "user", "message": "Wednesday or Thursday?"},
+      {"sender": "agent", "message": "Thursday works"},
+      {"sender": "user", "message": "7pm, that Italian place on Oak. Sound good?"},
+      {"sender": "agent", "message": "yes perfect"}
+    ],
+    "principle": "when she says 'free this week', immediately binary choice to narrow it — don't let it stay vague",
+    "failure_variant": "Oh great! When works best for you? I can do pretty much any day this week so whatever's easiest for you!",
+    "failure_reason": "Immediately defers to her schedule entirely — says 'whatever's easiest for you' which removes his own preferences from the equation"
+  },
+  {
+    "id": 33,
+    "scenario_type": "date_setting",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She agreed to 'sometime' but keeps deflecting when you try to pin down a day.",
+    "exchange": [
+      {"sender": "user", "message": "Tuesday or Wednesday — which one?"},
+      {"sender": "agent", "message": "ugh I'm not sure about my schedule"},
+      {"sender": "user", "message": "Check and let me know by tonight"},
+      {"sender": "agent", "message": "ok ok Wednesday"},
+      {"sender": "user", "message": "Good. 7:30, rooftop bar downtown"},
+      {"sender": "agent", "message": "ok!"}
+    ],
+    "principle": "when she deflects, give a soft deadline — makes it real without being aggressive",
+    "failure_variant": "No worries, take your time! Just let me know when you figure it out :) Hope your week is good!",
+    "failure_reason": "Removes urgency entirely, defaults to small talk — allows her to keep deferring indefinitely"
+  },
+  {
+    "id": 34,
+    "scenario_type": "date_setting",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She's confirmed a day but hasn't confirmed time/place. Following up day-before.",
+    "exchange": [
+      {"sender": "user", "message": "Tomorrow still on? 7pm, cocktail bar on 3rd"},
+      {"sender": "agent", "message": "yes! I'll be there"},
+      {"sender": "user", "message": "Good. See you then"},
+      {"sender": "agent", "message": "can't wait"}
+    ],
+    "principle": "confirm logistics cleanly the day before — don't over-communicate, just confirm and done",
+    "failure_variant": "Hey! So excited for tomorrow! Just confirming we're still on? I was thinking maybe 7 or 7:30? Or later if that works better? And where did you want to go? I'm open to anything!",
+    "failure_reason": "Re-opens all logistics that should have been settled, expresses excessive excitement, defers venue choice back to her"
+  },
+  {
+    "id": 35,
+    "scenario_type": "date_setting",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "She's been flirty and clearly interested. Setting the first date after a fun exchange.",
+    "exchange": [
+      {"sender": "user", "message": "Saturday evening — I'll pick the spot"},
+      {"sender": "agent", "message": "confident. ok yes"},
+      {"sender": "user", "message": "7pm. I'll send the address Friday"},
+      {"sender": "agent", "message": "mysterious, I like it"}
+    ],
+    "principle": "when interest is clear, take full initiative on the logistics — mystery adds intrigue",
+    "failure_variant": "So would you want to go out this weekend? I was thinking Saturday but totally fine with Sunday or we can do next week? What do you prefer?",
+    "failure_reason": "Decision fatigue through too many options — she was ready to go, he stalled with indecision"
+  },
+  {
+    "id": 36,
+    "scenario_type": "date_setting",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She agreed to go out but hasn't responded to the logistics message for 3 days.",
+    "exchange": [
+      {"sender": "user", "message": "Still Thursday? Just need a yes to confirm the reservation"},
+      {"sender": "agent", "message": "yes! sorry, yes"},
+      {"sender": "user", "message": "Good. 7:30 at [restaurant]. See you then"},
+      {"sender": "agent", "message": "see you there"}
+    ],
+    "principle": "practical reminder framing — 'need a yes for the reservation' gives her a concrete reason to respond",
+    "failure_variant": "Hey, I haven't heard back about Thursday... are we still on? No worries if not, just let me know either way!",
+    "failure_reason": "Sounds anxious, pre-emptively gives her the out with 'no worries if not' — undermines the date he already set"
+  },
+  {
+    "id": 37,
+    "scenario_type": "date_setting",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She asks 'what did you have in mind?' when you propose going out.",
+    "exchange": [
+      {"sender": "agent", "message": "what did you have in mind?"},
+      {"sender": "user", "message": "Cocktails somewhere low-key. Wednesday or Thursday?"},
+      {"sender": "agent", "message": "Thursday"},
+      {"sender": "user", "message": "Thursday it is. I'll send the place tomorrow"},
+      {"sender": "agent", "message": "sounds good"}
+    ],
+    "principle": "when asked 'what did you have in mind', give a clear activity + immediately move to date selection",
+    "failure_variant": "Oh I don't know, I'm easy! What do you feel like doing? I'm open to anything really, whatever you want!",
+    "failure_reason": "Immediately defers after being given an opportunity to lead — she asked him to step up, he stepped down"
+  },
+  {
+    "id": 38,
+    "scenario_type": "date_setting",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She says she prefers evenings but isn't sure about the day. Second text to confirm.",
+    "exchange": [
+      {"sender": "agent", "message": "evenings are better for me"},
+      {"sender": "user", "message": "Good. Wednesday or Thursday evening?"},
+      {"sender": "agent", "message": "Thursday"},
+      {"sender": "user", "message": "Thursday 7:30. That new bar by the park"},
+      {"sender": "agent", "message": "perfect, see you then"}
+    ],
+    "principle": "use her preference as a foothold, immediately close on a specific day",
+    "failure_variant": "Great, evenings work for me too! So maybe later in the week? Like Thursday or Friday or even Saturday? Or the weekend works. Just whatever!",
+    "failure_reason": "Overly accommodating to the point of no direction — every option given weakens the close"
+  },
+  {
+    "id": 39,
+    "scenario_type": "date_setting",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She keeps saying she 'wants to' but that she's 'just so busy right now'. Third attempt at pinning down a date.",
+    "exchange": [
+      {"sender": "user", "message": "Give me a week that actually works"},
+      {"sender": "agent", "message": "ok next week I'm genuinely free"},
+      {"sender": "user", "message": "Tuesday or Wednesday?"},
+      {"sender": "agent", "message": "Tuesday"},
+      {"sender": "user", "message": "Tuesday 7pm. Done"},
+      {"sender": "agent", "message": "ok yes for real this time"}
+    ],
+    "principle": "after repeated deflection, ask her to name the week — then you pick the day, don't give her all variables",
+    "failure_variant": "Haha no worries! Whenever you're ready, I'm here. Just hit me up when your schedule clears up! 😊",
+    "failure_reason": "'Just hit me up' puts 100% of initiative on her after she's already deflected repeatedly — she won't"
+  },
+  {
+    "id": 40,
+    "scenario_type": "date_setting",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She's clearly interested. First text exchange done. Moving to logistics.",
+    "exchange": [
+      {"sender": "user", "message": "Thursday. 7pm. That tapas place downtown"},
+      {"sender": "agent", "message": "I love tapas. Yes."},
+      {"sender": "user", "message": "I know"},
+      {"sender": "agent", "message": "how do you know lol"},
+      {"sender": "user", "message": "Gut feeling. See you Thursday"},
+      {"sender": "agent", "message": "see you then 😊"}
+    ],
+    "principle": "confident logistical drop — no question, no hedge, just tell her the plan and let her respond",
+    "failure_variant": "So I was thinking maybe tapas? If that's ok? Or if you don't like that we can totally do something else, I'm really easy!",
+    "failure_reason": "Qualifies the suggestion immediately, removes his own conviction — 'I'm really easy' is not an attractive quality to project"
+  },
+  {
+    "id": 41,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She's given one-word answers to three consecutive messages. Trying to re-engage.",
+    "exchange": [
+      {"sender": "user", "message": "You're either very busy or terrible at texting"},
+      {"sender": "agent", "message": "both"},
+      {"sender": "user", "message": "Fair. Thursday or Friday?"},
+      {"sender": "agent", "message": "Friday"},
+      {"sender": "user", "message": "7pm. I'll send the spot"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "name the pattern without accusation, then go directly to logistics — no more trying to create banter",
+    "failure_variant": "Haha are you ok? You seem a little quiet 😅 Did I say something? Hope you're having a good week! What have you been up to?",
+    "failure_reason": "Anxious meta-commentary on her texting + pivot to small talk — tries to fix a texting dynamic instead of moving forward"
+  },
+  {
+    "id": 42,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "medium",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She says 'sure' to your suggestion to hang out. Nothing more.",
+    "exchange": [
+      {"sender": "agent", "message": "sure"},
+      {"sender": "user", "message": "Thursday 7pm, cocktail bar on Main. Bring a good story"},
+      {"sender": "agent", "message": "haha ok"},
+      {"sender": "user", "message": "Good. See you then"},
+      {"sender": "agent", "message": "see you"}
+    ],
+    "principle": "treat 'sure' as a yes — confirm details, add one small hook, and close",
+    "failure_variant": "Oh just 'sure'? Haha are you excited at all?? 😄 I'm really looking forward to it! When's good for you exactly?",
+    "failure_reason": "Points out her low enthusiasm, expresses excessive excitement himself — this contrast is unattractive"
+  },
+  {
+    "id": 43,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "easy",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She's responded with 'lol' to two things that weren't jokes. Pattern recognition needed.",
+    "exchange": [
+      {"sender": "user", "message": "Wednesday — you pick the spot this time"},
+      {"sender": "agent", "message": "lol ok"},
+      {"sender": "user", "message": "7pm works?"},
+      {"sender": "agent", "message": "yeah"},
+      {"sender": "user", "message": "Good. See you then"},
+      {"sender": "agent", "message": "👍"}
+    ],
+    "principle": "stop trying to earn better responses — she's a dead texter in text but may be fine in person, close fast",
+    "failure_variant": "Haha are you always this expressive over text? 😂 Come on, give me something! What kind of place would you pick?",
+    "failure_reason": "Teasing her dead texting style prolongs the conversation she's not invested in — just close"
+  },
+  {
+    "id": 44,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "Great opener exchange, then she answers your date question with just 'maybe'.",
+    "exchange": [
+      {"sender": "agent", "message": "maybe"},
+      {"sender": "user", "message": "Thursday or Friday — pick one"},
+      {"sender": "agent", "message": "Friday I guess"},
+      {"sender": "user", "message": "Friday. 7pm, that bar by the park"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "don't accept 'maybe' — binary close it immediately, don't respond to ambiguity with more ambiguity",
+    "failure_variant": "Haha, 'maybe'? That's not really a yes or no 😅 What would make you more sure? I want to make sure it works for you!",
+    "failure_reason": "Lets her hold the frame with ambiguity, then asks her what would make her more comfortable — total approval-seeking"
+  },
+  {
+    "id": 45,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "medium",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She answers your question with 'idk'. You're 4 texts in, no date set.",
+    "exchange": [
+      {"sender": "agent", "message": "idk"},
+      {"sender": "user", "message": "Thursday works then. 7pm"},
+      {"sender": "agent", "message": "haha ok"},
+      {"sender": "user", "message": "Good"},
+      {"sender": "agent", "message": "👍"}
+    ],
+    "principle": "treat 'idk' as implicit approval — if she wanted to say no, she would have. Move forward confidently.",
+    "failure_variant": "Haha oh no, idk isn't an answer! What are your actual thoughts? I don't want to pressure you into something you don't want!",
+    "failure_reason": "Asks her to articulate her reluctance, then reassures her she doesn't have to go — sabotages own close"
+  },
+  {
+    "id": 46,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "easy",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She replies 'ok' to your date proposal. You need to confirm logistics.",
+    "exchange": [
+      {"sender": "agent", "message": "ok"},
+      {"sender": "user", "message": "7pm, wine bar on 4th. You know it?"},
+      {"sender": "agent", "message": "yes"},
+      {"sender": "user", "message": "Good. See you Saturday"},
+      {"sender": "agent", "message": "see you"}
+    ],
+    "principle": "treat 'ok' as a green light — nail down logistics cleanly without creating new discussion points",
+    "failure_variant": "Yay ok!! This is going to be so fun! I'm really excited, should we meet there or do you want me to pick you up? What time works best for you?",
+    "failure_reason": "Over-celebrates a minimal response, re-opens logistics questions she doesn't care about — creates unnecessary friction"
+  },
+  {
+    "id": 47,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She was warm and chatty for 2 days, now giving one-word answers since you proposed a date.",
+    "exchange": [
+      {"sender": "user", "message": "Still thinking about Thursday?"},
+      {"sender": "agent", "message": "yeah"},
+      {"sender": "user", "message": "It's a yes or we move on — your call"},
+      {"sender": "agent", "message": "ok yes, Thursday"},
+      {"sender": "user", "message": "Good. 7pm"},
+      {"sender": "agent", "message": "👍"}
+    ],
+    "principle": "when she withdraws after a date proposal, give a soft ultimatum — signals you have options and respect your own time",
+    "failure_variant": "Hey, you seem a bit off since I mentioned Thursday — did I push too fast? We can just keep chatting if that's more comfortable 😊",
+    "failure_reason": "Diagnoses her emotional state and retreats on his own proposal — rewards withdrawal with more reassurance"
+  },
+  {
+    "id": 48,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "medium",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She's enthusiastic in person based on the opener callback but types in near-monosyllables.",
+    "exchange": [
+      {"sender": "user", "message": "Friday evening. That place on Elm"},
+      {"sender": "agent", "message": "k"},
+      {"sender": "user", "message": "7pm work?"},
+      {"sender": "agent", "message": "yep"},
+      {"sender": "user", "message": "See you Friday"},
+      {"sender": "agent", "message": "👋"}
+    ],
+    "principle": "some people are simply bad texters — don't interpret monosyllables as disinterest, close and trust in-person",
+    "failure_variant": "Are you actually interested in this? You don't seem very enthusiastic over text... I want to make sure you actually want to go",
+    "failure_reason": "Projects his insecurity onto her texting style, asks her to prove interest she already showed by not saying no"
+  },
+  {
+    "id": 49,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "easy",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She responds to everything with exactly two words maximum.",
+    "exchange": [
+      {"sender": "user", "message": "Thursday night — you free?"},
+      {"sender": "agent", "message": "could be"},
+      {"sender": "user", "message": "7pm. Cocktail bar on 2nd"},
+      {"sender": "agent", "message": "sounds good"},
+      {"sender": "user", "message": "See you there"},
+      {"sender": "agent", "message": "yeah 👍"}
+    ],
+    "principle": "mirror her brevity — your texts should be as short as hers, no more. Match her investment level.",
+    "failure_variant": "Oh could be! Let me know when you know for sure 😊 I was thinking we could go to this really cool cocktail bar I found, it's on 2nd street and they have these amazing signature cocktails, I think you'd love it!",
+    "failure_reason": "Massive investment mismatch — she gives 4 words, he gives 40 — reads as desperate and unaware"
+  },
+  {
+    "id": 50,
+    "scenario_type": "handling_one_word_answers",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "App match. Four messages in, she hasn't asked him a single question. Decides to cut to the close.",
+    "exchange": [
+      {"sender": "user", "message": "We're better in person. Friday?"},
+      {"sender": "agent", "message": "maybe"},
+      {"sender": "user", "message": "Friday or Saturday, pick one"},
+      {"sender": "agent", "message": "Saturday"},
+      {"sender": "user", "message": "Good. I'll text you the spot Friday"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "if she's not investing in chat, stop trying to build rapport through text — go straight to logistics",
+    "failure_variant": "You're not a big texter huh? Haha it's all good! Tell me something interesting about you! What do you do for fun?",
+    "failure_reason": "Doubles down on the medium she's clearly not invested in — pivoting to more questions signals he doesn't read signals"
+  },
+  {
+    "id": 51,
+    "scenario_type": "post_date",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Great first date. She seemed genuinely interested. You're texting the next day.",
+    "exchange": [
+      {"sender": "user", "message": "That place held up"},
+      {"sender": "agent", "message": "it really did. I had a great time"},
+      {"sender": "user", "message": "Same. Saturday again?"},
+      {"sender": "agent", "message": "yes definitely"}
+    ],
+    "principle": "post-date text should reference a specific shared moment + move quickly to date #2",
+    "failure_variant": "Hey! I had such an amazing time last night, you're genuinely so cool and funny! I really hope we can do it again soon! Let me know!",
+    "failure_reason": "Over-invests immediately post-date, stacks compliments, ends with 'let me know' — all initiative suddenly gone"
+  },
+  {
+    "id": 52,
+    "scenario_type": "post_date",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Solid first date, she texted first the next morning.",
+    "exchange": [
+      {"sender": "agent", "message": "that was really fun last night"},
+      {"sender": "user", "message": "Agreed. Round two Thursday?"},
+      {"sender": "agent", "message": "yes I'd like that"},
+      {"sender": "user", "message": "Good. I'll plan something different"},
+      {"sender": "agent", "message": "mysterious again, I see"}
+    ],
+    "principle": "when she initiates post-date, stay calibrated — acknowledge briefly, move to date #2 fast",
+    "failure_variant": "I'm so glad you had fun! You're honestly one of the most interesting people I've met. I was thinking about you all morning!",
+    "failure_reason": "Declaring he's been thinking about her all morning after one date — too fast, too much, signals scarcity mindset"
+  },
+  {
+    "id": 53,
+    "scenario_type": "post_date",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "Good date by all appearances. She seemed into it. She doesn't text after. 48 hours later you reach out.",
+    "exchange": [
+      {"sender": "user", "message": "That spot was underrated"},
+      {"sender": "agent", "message": "it was! sorry I've been swamped"},
+      {"sender": "user", "message": "Saturday?"},
+      {"sender": "agent", "message": "yes let's do it"}
+    ],
+    "principle": "don't express hurt at her silence — just re-engage with a callback, close on date #2",
+    "failure_variant": "Hey! I was a little surprised not to hear from you after the other night... did something feel off? I thought we had a good time?",
+    "failure_reason": "Opens by expressing anxiety and asking her to validate the date — puts her in an uncomfortable position post-hoc"
+  },
+  {
+    "id": 54,
+    "scenario_type": "post_date",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Good date. You want to text same night after dropping her off.",
+    "exchange": [
+      {"sender": "user", "message": "Drive was clean. Good sign"},
+      {"sender": "agent", "message": "haha is it?"},
+      {"sender": "user", "message": "Always. Thursday?"},
+      {"sender": "agent", "message": "yes 😊"}
+    ],
+    "principle": "same-night text should be brief and playful — not gushing — then close on the next date",
+    "failure_variant": "I just got home and I'm already thinking about what a good time we had. You're really something special, I genuinely loved every minute. Can't wait to see you again!",
+    "failure_reason": "Same-night emotional declaration — too much, too soon, she can feel the intensity before she even gets home"
+  },
+  {
+    "id": 55,
+    "scenario_type": "post_date",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "Great date. She kisses you goodnight. You text next morning.",
+    "exchange": [
+      {"sender": "user", "message": "10/10 exit strategy on your part"},
+      {"sender": "agent", "message": "😂 I thought it was smooth"},
+      {"sender": "user", "message": "It was. Saturday — I'll top it"},
+      {"sender": "agent", "message": "bold promise"}
+    ],
+    "principle": "post-date callback to a playful moment + frame date #2 as something to look forward to",
+    "failure_variant": "Last night was really amazing. I really like you, this feels like something. Do you feel the same way?",
+    "failure_reason": "DTR (define the relationship) after one date — way too soon, puts her on the spot, signals emotional imbalance"
+  },
+  {
+    "id": 56,
+    "scenario_type": "post_date",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "Great date. She was very warm in person. Post-date texts are suddenly cold again.",
+    "exchange": [
+      {"sender": "agent", "message": "yeah it was fun"},
+      {"sender": "user", "message": "Saturday?"},
+      {"sender": "agent", "message": "maybe, I'll check my schedule"},
+      {"sender": "user", "message": "Let me know by Thursday"},
+      {"sender": "agent", "message": "ok"},
+      {"sender": "agent", "message": "Thursday works"},
+      {"sender": "user", "message": "Good. 7:30, I'll plan something"}
+    ],
+    "principle": "her cold texting post-date doesn't override her in-person warmth — stay the course, give a soft deadline",
+    "failure_variant": "Oh... you seem different over text. Did something change? I thought we really connected. I'm a bit confused honestly.",
+    "failure_reason": "Interprets text persona as relationship feedback — expresses confusion which signals neediness"
+  },
+  {
+    "id": 57,
+    "scenario_type": "post_date",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Second date was great. Much more physical chemistry. Setting up date three.",
+    "exchange": [
+      {"sender": "user", "message": "That escalated appropriately"},
+      {"sender": "agent", "message": "😂 yes it did"},
+      {"sender": "user", "message": "Friday?"},
+      {"sender": "agent", "message": "Friday yes"}
+    ],
+    "principle": "after a date with physical escalation, acknowledge it playfully without over-discussing — close on the next date",
+    "failure_variant": "Last night was honestly incredible. I feel like we're really connecting on so many levels and I'm excited to see where this goes. How are you feeling about everything?",
+    "failure_reason": "'How are you feeling about everything' after date two is an unsolicited feelings check-in — puts her on the spot"
+  },
+  {
+    "id": 58,
+    "scenario_type": "post_date",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "Date was good but conversation had a small awkward moment. Addressing it lightly.",
+    "exchange": [
+      {"sender": "user", "message": "The awkward pause was peak"},
+      {"sender": "agent", "message": "oh god haha I was hoping you forgot"},
+      {"sender": "user", "message": "Never. Thursday for a smoother attempt"},
+      {"sender": "agent", "message": "haha ok yes"}
+    ],
+    "principle": "lean into small imperfect moments — it shows confidence and creates connection without taking them seriously",
+    "failure_variant": "Hey, I hope that wasn't too weird last night? I know there was one odd moment but I hope overall it was good? Just wanted to check in!",
+    "failure_reason": "Over-apologizing for a moment she's probably already forgotten — draws attention back to the awkwardness unnecessarily"
+  },
+  {
+    "id": 59,
+    "scenario_type": "post_date",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "Date went fine. She seemed engaged. Post-date she texts back with almost nothing.",
+    "exchange": [
+      {"sender": "user", "message": "Good choice on the venue"},
+      {"sender": "agent", "message": "thanks"},
+      {"sender": "user", "message": "Saturday again?"},
+      {"sender": "agent", "message": "sure"},
+      {"sender": "user", "message": "7pm, I'll pick the spot this time"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "dead texting post-date is common — she may be a bad texter and great in person. Don't over-analyze, close on date 2.",
+    "failure_variant": "Hey, are you sure everything's ok? You seem a bit distant over text. Did last night feel off to you? I want to make sure we're good 😊",
+    "failure_reason": "Reading cold texting as emotional withdrawal — over-analyses a texting style and brings insecurity into the post-date window"
+  },
+  {
+    "id": 60,
+    "scenario_type": "post_date",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "First date was great. She mentioned she's going on a trip next weekend.",
+    "exchange": [
+      {"sender": "user", "message": "Before you head off — Thursday?"},
+      {"sender": "agent", "message": "yes! good thinking"},
+      {"sender": "user", "message": "7pm, that place on 6th"},
+      {"sender": "agent", "message": "perfect"}
+    ],
+    "principle": "when she has a trip coming, use it as urgency to set date #2 before she leaves",
+    "failure_variant": "Hope your trip is amazing!! Let me know when you're back and we can definitely plan something 😊",
+    "failure_reason": "Lets the trip serve as a full pause — 'let me know when you're back' is soft deferred rejection of his own opportunity"
+  },
+  {
+    "id": 61,
+    "scenario_type": "she_initiates",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She texts first after you gave her your number without asking for hers.",
+    "exchange": [
+      {"sender": "agent", "message": "hey, so I caved"},
+      {"sender": "user", "message": "Took you long enough"},
+      {"sender": "agent", "message": "haha was that a test"},
+      {"sender": "user", "message": "Always. Thursday?"},
+      {"sender": "agent", "message": "yes"}
+    ],
+    "principle": "when she initiates, hold your frame — light tease + immediate close",
+    "failure_variant": "Oh my god!! I'm so glad you texted! I honestly didn't think you would! I've been thinking about you all week!",
+    "failure_reason": "Reveals excessive emotional investment in response to her initiative — she held the tension, he immediately collapsed it"
+  },
+  {
+    "id": 62,
+    "scenario_type": "she_initiates",
+    "difficulty": "medium",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "She texts first with 'thinking about our conversation the other day'.",
+    "exchange": [
+      {"sender": "agent", "message": "been thinking about our conversation the other day"},
+      {"sender": "user", "message": "Good. Continue it Thursday"},
+      {"sender": "agent", "message": "haha direct. ok yes"},
+      {"sender": "user", "message": "7pm, that bar on Oak"},
+      {"sender": "agent", "message": "perfect"}
+    ],
+    "principle": "she's signaling interest — acknowledge briefly and pivot to a date immediately",
+    "failure_variant": "Aww really?! Me too! What part were you thinking about? I loved when you said that thing about travel, it really stuck with me too!",
+    "failure_reason": "Dives back into content of the conversation instead of using her signal to set a date — prolongs texting instead of closing"
+  },
+  {
+    "id": 63,
+    "scenario_type": "she_initiates",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She initiates with a meme or random funny thing, no clear direction.",
+    "exchange": [
+      {"sender": "agent", "message": "[sends a meme]"},
+      {"sender": "user", "message": "Accurate. You free Friday?"},
+      {"sender": "agent", "message": "haha yes actually"},
+      {"sender": "user", "message": "7pm, cocktail bar downtown. See you then"},
+      {"sender": "agent", "message": "ok!"}
+    ],
+    "principle": "when she opens with casual content, acknowledge briefly and close on a date — don't go into a meme chain",
+    "failure_variant": "Hahaha omg that's so accurate!! Who sent you that? I love memes like this! What else have you seen lately?",
+    "failure_reason": "Takes the meme-chain bait — goes deeper into casual chat when she's given him an opening to close"
+  },
+  {
+    "id": 64,
+    "scenario_type": "she_initiates",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She texts asking 'what are you up to this weekend?'",
+    "exchange": [
+      {"sender": "agent", "message": "what are you up to this weekend?"},
+      {"sender": "user", "message": "Nothing yet. Join me Saturday?"},
+      {"sender": "agent", "message": "yes! what are we doing?"},
+      {"sender": "user", "message": "You'll see. 7pm"},
+      {"sender": "agent", "message": "I love a mystery"}
+    ],
+    "principle": "when she asks about your weekend, treat it as an invite to be included — propose immediately",
+    "failure_variant": "Not much! Probably just relaxing and maybe seeing some friends. What about you? You doing anything fun?",
+    "failure_reason": "Responds to a clear interest signal with a vague answer and a question back — misses the close entirely"
+  },
+  {
+    "id": 65,
+    "scenario_type": "she_initiates",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She texts with 'hey stranger' after a few days of no contact.",
+    "exchange": [
+      {"sender": "agent", "message": "hey stranger"},
+      {"sender": "user", "message": "Hey. Friday?"},
+      {"sender": "agent", "message": "lol straight to the point. yes"},
+      {"sender": "user", "message": "7pm. I'll text the spot Thursday"},
+      {"sender": "agent", "message": "ok 😊"}
+    ],
+    "principle": "'Hey stranger' is a re-engagement signal — acknowledge with a minimal response and go straight to the date",
+    "failure_variant": "Heyy! Haven't heard from you, how have you been? What have you been up to? Hope life's treating you well!",
+    "failure_reason": "Matches her friendly open with excessive friendliness — and defers entirely, missing the close again"
+  },
+  {
+    "id": 66,
+    "scenario_type": "she_initiates",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She initiates and is very flirty. When you propose a date, she suddenly backs off.",
+    "exchange": [
+      {"sender": "agent", "message": "I keep thinking about what you said at the bar"},
+      {"sender": "user", "message": "Thursday — say it in person"},
+      {"sender": "agent", "message": "haha you're bold"},
+      {"sender": "user", "message": "7pm. Yes or no?"},
+      {"sender": "agent", "message": "...yes ok"}
+    ],
+    "principle": "when flirtation is high and she stalls at the close, stay direct — binary yes/no is more attractive than discussion",
+    "failure_variant": "Haha aww I'm flattered! No pressure, I just thought it could be fun but only if you're comfortable with it! What do you think?",
+    "failure_reason": "Retreats from his own close, adds 'no pressure' — she initiated flirtation, he flinched at the close"
+  },
+  {
+    "id": 67,
+    "scenario_type": "she_initiates",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She texts asking for a recommendation on something you mentioned on your date.",
+    "exchange": [
+      {"sender": "agent", "message": "what was that restaurant you mentioned?"},
+      {"sender": "user", "message": "I'll show you Thursday"},
+      {"sender": "agent", "message": "you're not going to just tell me?"},
+      {"sender": "user", "message": "Nope. 7pm"},
+      {"sender": "agent", "message": "fine haha yes"}
+    ],
+    "principle": "when she asks for a recommendation, use it as a vehicle to propose a date — don't just answer the question",
+    "failure_variant": "Oh it's [restaurant name]! It's amazing, you should definitely go. It's on 5th Ave. Let me know how you like it!",
+    "failure_reason": "Answers the question and sends her away to go alone — missed a perfect natural invitation to propose a date"
+  },
+  {
+    "id": 68,
+    "scenario_type": "she_initiates",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "She texts a photo of something that reminded her of the joke from your first meeting.",
+    "exchange": [
+      {"sender": "agent", "message": "[photo of something referencing shared joke]"},
+      {"sender": "user", "message": "You thought of me. I'm touched"},
+      {"sender": "agent", "message": "don't make it weird 😂"},
+      {"sender": "user", "message": "Friday?"},
+      {"sender": "agent", "message": "yes"}
+    ],
+    "principle": "when she sends a callback, flip it playfully on her then close — shows you're not chasing but you're present",
+    "failure_variant": "Omg haha!! I love that you thought of me! That made my whole day! So cute! We should definitely get together soon!",
+    "failure_reason": "'Made my whole day' is too emotionally revealing — 'should definitely' is vague when a direct ask is warranted"
+  },
+  {
+    "id": 69,
+    "scenario_type": "she_initiates",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She texts first with a genuine question about your work/hobby she remembered from conversation.",
+    "exchange": [
+      {"sender": "agent", "message": "did you end up finishing that project you mentioned?"},
+      {"sender": "user", "message": "Just did. I'll tell you about it Saturday"},
+      {"sender": "agent", "message": "now I have to wait?"},
+      {"sender": "user", "message": "Builds anticipation. 7pm"},
+      {"sender": "agent", "message": "ok fine yes"}
+    ],
+    "principle": "she's showing she paid attention — reward that with a date, not a text explanation",
+    "failure_variant": "Aww you remembered! Yes I finished it actually! It was a bit stressful but turned out great! Here's what happened... [long explanation]",
+    "failure_reason": "Answers fully over text — expends the interesting story as a text narrative instead of keeping it as a date vehicle"
+  },
+  {
+    "id": 70,
+    "scenario_type": "she_initiates",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She initiates but sends exactly two words: 'hey you'.",
+    "exchange": [
+      {"sender": "agent", "message": "hey you"},
+      {"sender": "user", "message": "Hey. Thursday?"},
+      {"sender": "agent", "message": "lol yes"},
+      {"sender": "user", "message": "7pm, wine bar on 2nd"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "treat 'hey you' as interest — skip the pleasantries, go straight to the close",
+    "failure_variant": "Hey you! It's been a while! How have you been? What have you been up to lately?",
+    "failure_reason": "Three questions in a row when she opened minimally — responds to a small signal with a large output of chat energy"
+  },
+  {
+    "id": 71,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She's been running hot for two days, then woke up cold with no explanation. She sends a dry one-liner.",
+    "exchange": [
+      {"sender": "agent", "message": "morning"},
+      {"sender": "user", "message": "Morning"},
+      {"sender": "agent", "message": "what are you up to today"},
+      {"sender": "user", "message": "Friday — you free?"},
+      {"sender": "agent", "message": "yeah"},
+      {"sender": "user", "message": "Good. 7pm, that spot we talked about"},
+      {"sender": "agent", "message": "ok"}
+    ],
+    "principle": "don't chase a cold morning — match her energy exactly and use the exchange to close",
+    "failure_variant": "Good morning! You seem quieter today — everything ok? I hope I didn't say anything! I really like talking to you 😊",
+    "failure_reason": "Interprets a cold morning as a problem he caused — expresses worry and restates emotional investment unprompted"
+  },
+  {
+    "id": 72,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "medium",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She's flirty over text but cancels your last-minute plan with a vague excuse.",
+    "exchange": [
+      {"sender": "agent", "message": "sorry can't make it tonight, something came up"},
+      {"sender": "user", "message": "No worries. Next week — Tuesday or Wednesday?"},
+      {"sender": "agent", "message": "Wednesday works"},
+      {"sender": "user", "message": "Wednesday. 7pm. Don't cancel"},
+      {"sender": "agent", "message": "I won't I promise"}
+    ],
+    "principle": "don't react emotionally to a cancel — neutral pivot to reschedule with a light callback to the cancel",
+    "failure_variant": "Oh really?? That's such a bummer, I was really looking forward to it 😞 What happened? Maybe we can reschedule at some point if you want?",
+    "failure_reason": "Expresses disappointment, asks for explanation, hedges reschedule — all three signal he's more invested than she is"
+  },
+  {
+    "id": 73,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She flirted all week, confirmed the date, and then on the day texts: 'I don't think I can make it tonight, I'm exhausted'.",
+    "exchange": [
+      {"sender": "agent", "message": "I don't think I can make it tonight, I'm just so exhausted"},
+      {"sender": "user", "message": "No problem. This week or next?"},
+      {"sender": "agent", "message": "next week is better"},
+      {"sender": "user", "message": "Tuesday or Wednesday?"},
+      {"sender": "agent", "message": "Wednesday"},
+      {"sender": "user", "message": "Wednesday. 7pm. Same plan"},
+      {"sender": "agent", "message": "yes, sorry again"}
+    ],
+    "principle": "same-day cancel requires zero emotional reaction — cold pivot to reschedule signals abundance and composure",
+    "failure_variant": "Oh no!! I was really looking forward to this... that's a bit last minute 😕 Is everything ok? Maybe we can figure something out? I can come to you if that helps?",
+    "failure_reason": "Expresses disappointment, offers to accommodate, asks if she's ok — all signal that she successfully disrupted his emotional state"
+  },
+  {
+    "id": 74,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "medium",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "Hot for 3 days, then disappears for 4 days. Returns casually as if nothing happened.",
+    "exchange": [
+      {"sender": "agent", "message": "hey what's up"},
+      {"sender": "user", "message": "Hey. This week still work?"},
+      {"sender": "agent", "message": "yeah sorry I went MIA"},
+      {"sender": "user", "message": "It happens. Thursday?"},
+      {"sender": "agent", "message": "yes"}
+    ],
+    "principle": "no lecture about the disappearance — accept the apology and go straight to logistics",
+    "failure_variant": "Oh hey! So nice to hear from you. I was a little worried honestly — you just kind of disappeared. What happened? I hope everything is ok 😟",
+    "failure_reason": "Admits he was worried, asks for an explanation — rewards the disappearance with emotional concern"
+  },
+  {
+    "id": 75,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "Third cycle of hot/cold. You've been matching her energy. She's gone hot again.",
+    "exchange": [
+      {"sender": "agent", "message": "I miss you a little"},
+      {"sender": "user", "message": "Thursday 7pm"},
+      {"sender": "agent", "message": "just like that?"},
+      {"sender": "user", "message": "Just like that"},
+      {"sender": "agent", "message": "ok yes"}
+    ],
+    "principle": "when hot/cold person expresses missing you, don't emotionally engage — just close on the date",
+    "failure_variant": "Aww I miss you too honestly! It's been really hard when you go quiet, I never know where I stand. Can we talk about that?",
+    "failure_reason": "Opens a feelings discussion in response to a vulnerable moment — turns a close opportunity into an emotional negotiation"
+  },
+  {
+    "id": 76,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "medium",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She goes cold the day after the best conversation you've had so far.",
+    "exchange": [
+      {"sender": "user", "message": "You went quiet after the best conversation. Tactical"},
+      {"sender": "agent", "message": "haha I was testing you"},
+      {"sender": "user", "message": "I passed. Thursday?"},
+      {"sender": "agent", "message": "yes you did. Thursday works"}
+    ],
+    "principle": "light acknowledgment of the pattern + hold your frame confidently — then close",
+    "failure_variant": "Hey, did I say something weird yesterday? I thought we were having such a good conversation and then nothing 😕",
+    "failure_reason": "Assumes he caused the silence, expresses confusion and sadness — signals he was more invested in that conversation than she was"
+  },
+  {
+    "id": 77,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "easy",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She's been hot and then cold twice. This time when she goes cold, you simply don't text.",
+    "exchange": [
+      {"sender": "agent", "message": "hey, sorry I've been weird"},
+      {"sender": "user", "message": "It's fine. Saturday?"},
+      {"sender": "agent", "message": "yes"},
+      {"sender": "user", "message": "Good. 7pm"},
+      {"sender": "agent", "message": "I'll be there"}
+    ],
+    "principle": "not texting during her cold phase is often the best move — let her re-initiate, then close fast",
+    "failure_variant": "I noticed you've been a bit distant lately and I just want you to know I'm here if something's going on. I really do like you and I'm not going anywhere.",
+    "failure_reason": "Declares emotional availability during a cooling-off phase — signals he's been waiting and watching, not living his own life"
+  },
+  {
+    "id": 78,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She goes cold day-of the second date. You've been here before with her.",
+    "exchange": [
+      {"sender": "agent", "message": "today is kind of crazy, might be hard to do tonight"},
+      {"sender": "user", "message": "Let me know by 5pm if it's off"},
+      {"sender": "agent", "message": "ok... I think I can still make it"},
+      {"sender": "user", "message": "Good. See you at 7"},
+      {"sender": "agent", "message": "yes, see you then"}
+    ],
+    "principle": "give a soft deadline — not aggressive, but signals your time is real and there are consequences to a cancel",
+    "failure_variant": "Oh of course, no worries at all! We can totally reschedule, I understand life gets crazy. Just let me know!",
+    "failure_reason": "Pre-emptively reschedules before she's even cancelled — removes all accountability and urgency"
+  },
+  {
+    "id": 79,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "medium",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She's interested but sometimes takes 2-3 days to reply. You've been waiting for her reply to your date proposal.",
+    "exchange": [
+      {"sender": "user", "message": "Thursday still or are we starting over?"},
+      {"sender": "agent", "message": "haha no, Thursday is still good"},
+      {"sender": "user", "message": "7pm, same plan"},
+      {"sender": "agent", "message": "yes, sorry for the delay"}
+    ],
+    "principle": "after a long wait, one light reference to the delay is ok — then re-confirm logistics and close",
+    "failure_variant": "Hey! I sent that message 3 days ago... I wasn't sure if you got it? Still want to go Thursday? Let me know either way, seriously no pressure!",
+    "failure_reason": "Points out the exact time of his message, 'seriously no pressure' undercuts the invite — sounds like a pleading follow-up"
+  },
+  {
+    "id": 80,
+    "scenario_type": "hot_and_cold",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "Fourth hot/cold cycle. She's been flaky enough that you decide to genuinely move on. She texts when you've gone quiet for 2 weeks.",
+    "exchange": [
+      {"sender": "agent", "message": "been thinking about you"},
+      {"sender": "user", "message": "Hey. I've moved on from the back-and-forth"},
+      {"sender": "agent", "message": "I know, I'm sorry. I wasn't sure what I wanted"},
+      {"sender": "user", "message": "Are you now?"},
+      {"sender": "agent", "message": "yes"},
+      {"sender": "user", "message": "Thursday. One last shot"},
+      {"sender": "agent", "message": "I'll be there"}
+    ],
+    "principle": "if you genuinely want to give it one more try, set a clear frame — 'one last shot' signals self-respect without drama",
+    "failure_variant": "Oh my god, really?? I've been thinking about you too! I'm so glad you reached out. I miss talking to you! What have you been up to?",
+    "failure_reason": "Immediately collapses the distance he'd created — erases 2 weeks of natural boundary-setting with one message"
+  },
+  {
+    "id": 81,
+    "scenario_type": "qualifying_her",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She mentions she's a chef. Instead of being impressed, you use it to qualify her.",
+    "exchange": [
+      {"sender": "agent", "message": "I'm actually a pastry chef"},
+      {"sender": "user", "message": "Ok but can you make one thing that's actually savory"},
+      {"sender": "agent", "message": "excuse me?! yes obviously 😂"},
+      {"sender": "user", "message": "Jury's out. Thursday you prove it"},
+      {"sender": "agent", "message": "challenge accepted"}
+    ],
+    "principle": "when she gives a credential or skill, challenge it lightly — don't be impressed, be curious and skeptical",
+    "failure_variant": "Oh wow, a pastry chef?? That's so cool! What's your specialty? I bet your food is amazing!",
+    "failure_reason": "Immediate approval and status elevation — she's now the expert, he's the audience"
+  },
+  {
+    "id": 82,
+    "scenario_type": "qualifying_her",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She says she's 'pretty good at reading people'. You don't just agree.",
+    "exchange": [
+      {"sender": "agent", "message": "I'm usually pretty good at reading people"},
+      {"sender": "user", "message": "Everyone thinks that"},
+      {"sender": "agent", "message": "rude! I actually am"},
+      {"sender": "user", "message": "Prove it. What am I thinking right now?"},
+      {"sender": "agent", "message": "that I'm right 😂"},
+      {"sender": "user", "message": "Thursday. We'll find out"}
+    ],
+    "principle": "don't validate generic self-descriptions — push back lightly and create a game around it",
+    "failure_variant": "Really? That's such a cool skill! I wish I was better at that. What do you read about me so far?",
+    "failure_reason": "Immediately asks to be evaluated by her — puts her in a one-up position and makes him the subject of her assessment"
+  },
+  {
+    "id": 83,
+    "scenario_type": "qualifying_her",
+    "difficulty": "hard",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She mentions she's done a lot of traveling. You don't just admire it.",
+    "exchange": [
+      {"sender": "agent", "message": "I've been to like 30 countries"},
+      {"sender": "user", "message": "Collected or actually experienced?"},
+      {"sender": "agent", "message": "what does that mean??"},
+      {"sender": "user", "message": "There's a difference. Tell me Thursday"},
+      {"sender": "agent", "message": "ok now I'm curious what your standard is"}
+    ],
+    "principle": "make a distinction that challenges the surface-level flex — invites her to justify herself to you",
+    "failure_variant": "Wow 30 countries?! That's incredible! I've only been to like 5, I'm so jealous! Where was your favorite?",
+    "failure_reason": "Makes himself her inferior by comparison — she's now the experienced traveler and he's the audience"
+  },
+  {
+    "id": 84,
+    "scenario_type": "qualifying_her",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She says she doesn't really like coffee. You use it as a qualifying moment.",
+    "exchange": [
+      {"sender": "agent", "message": "I don't really drink coffee"},
+      {"sender": "user", "message": "That's concerning"},
+      {"sender": "agent", "message": "haha why?? not everyone needs it"},
+      {"sender": "user", "message": "We'll see. Thursday evening, you can explain yourself"},
+      {"sender": "agent", "message": "this is the weirdest date I've ever been invited to but yes"}
+    ],
+    "principle": "treat her non-preference as if it's a character flaw — playful, not serious, but sets up an evaluator frame",
+    "failure_variant": "Oh that's totally fine! Not everyone likes coffee! I can find a place with tea or juice or whatever you like 😊",
+    "failure_reason": "Immediately accommodates and removes any trace of his own preference — no tension, no playfulness"
+  },
+  {
+    "id": 85,
+    "scenario_type": "qualifying_her",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "US",
+    "setup": "She tries to qualify herself early — says she's 'not like most girls'.",
+    "exchange": [
+      {"sender": "agent", "message": "I'm not like most girls"},
+      {"sender": "user", "message": "We'll see"},
+      {"sender": "agent", "message": "haha ok that's fair"},
+      {"sender": "user", "message": "Thursday is your audition"},
+      {"sender": "agent", "message": "I love that framing"}
+    ],
+    "principle": "when she tries to pre-qualify herself, don't validate it — reserve judgment and make her prove it",
+    "failure_variant": "Oh I can already tell you're different! You seem so interesting and real, I love that!",
+    "failure_reason": "Validates her self-assessment with instant approval — she made a claim, he awarded the prize before she proved anything"
+  },
+  {
+    "id": 86,
+    "scenario_type": "qualifying_her",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "US",
+    "setup": "She drops hints she's talking to other guys. You don't react.",
+    "exchange": [
+      {"sender": "agent", "message": "I've had a lot of guys texting me lately honestly"},
+      {"sender": "user", "message": "Good for you"},
+      {"sender": "agent", "message": "haha I thought you'd be more jealous"},
+      {"sender": "user", "message": "Why would I be? Thursday still work?"},
+      {"sender": "agent", "message": "...yes"}
+    ],
+    "principle": "non-reaction to jealousy bait signals true abundance — then close immediately without dwelling on it",
+    "failure_variant": "Oh yeah? That's cool I guess... I mean I'm not really a jealous person but I do like you... are you interested in me or?",
+    "failure_reason": "Denies jealousy while revealing it — then seeks reassurance, which is exactly what she was testing for"
+  },
+  {
+    "id": 87,
+    "scenario_type": "qualifying_her",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She mentions her job title in a way that sounds like she's expecting to be impressed.",
+    "exchange": [
+      {"sender": "agent", "message": "I'm actually the VP of Marketing at my company"},
+      {"sender": "user", "message": "And? Are you good at it?"},
+      {"sender": "agent", "message": "haha YES I'm good at it"},
+      {"sender": "user", "message": "Interesting. I'll decide Thursday"},
+      {"sender": "agent", "message": "oh now I'm being evaluated? ok then"}
+    ],
+    "principle": "status signals shouldn't get automatic approval — respond with 'and?' framing to show titles don't impress you",
+    "failure_variant": "VP of Marketing?! That's so impressive, you must be really driven and smart. I work in [job], nowhere near as cool!",
+    "failure_reason": "Instantly devalues himself by comparison — puts her career above his, removes any evaluator frame he had"
+  },
+  {
+    "id": 88,
+    "scenario_type": "qualifying_her",
+    "difficulty": "easy",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She mentions she rarely dates people from apps.",
+    "exchange": [
+      {"sender": "agent", "message": "I don't usually do this app thing"},
+      {"sender": "user", "message": "First time meeting a guy from an app who isn't weird?"},
+      {"sender": "agent", "message": "haha basically yes"},
+      {"sender": "user", "message": "Low bar but I'll take it. Thursday?"},
+      {"sender": "agent", "message": "yes haha"}
+    ],
+    "principle": "reframe her 'I don't usually do this' as a compliment to him, lightly, then close",
+    "failure_variant": "Wow really? What made you swipe on me? That makes me feel special, thank you for giving me a chance!",
+    "failure_reason": "'Thank you for giving me a chance' — completely inverts the frame, makes him dependent on her validation"
+  },
+  {
+    "id": 89,
+    "scenario_type": "qualifying_her",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "US",
+    "setup": "She mentions she has high standards. You don't take it personally.",
+    "exchange": [
+      {"sender": "agent", "message": "I have pretty high standards honestly"},
+      {"sender": "user", "message": "Me too. Thursday will be informative for both of us"},
+      {"sender": "agent", "message": "haha I like that"},
+      {"sender": "user", "message": "7pm. Cocktail bar on 5th"},
+      {"sender": "agent", "message": "perfect"}
+    ],
+    "principle": "agree that you also have high standards — makes it mutual, removes her leverage, closes the date",
+    "failure_variant": "Haha no worries, I'll try to meet them! I promise I'm a good guy. I hope I'm your type!",
+    "failure_reason": "Immediately sets himself up as an applicant to her standards — pleading to pass her test"
+  },
+  {
+    "id": 90,
+    "scenario_type": "qualifying_her",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "US",
+    "setup": "She's very brief over text. You choose to qualify her on her communication style itself.",
+    "exchange": [
+      {"sender": "user", "message": "You're either introverted or you hate texting"},
+      {"sender": "agent", "message": "both"},
+      {"sender": "user", "message": "Fair. Better in person?"},
+      {"sender": "agent", "message": "much"},
+      {"sender": "user", "message": "Good. Thursday is your chance to prove it"},
+      {"sender": "agent", "message": "deal"}
+    ],
+    "principle": "reframe her dead texting as a qualification challenge — uses it as leverage to motivate the date",
+    "failure_variant": "It's ok if you're not a texter! I totally get it! Just let me know when works for you :)",
+    "failure_reason": "Accepts her minimal effort uncritically, ends with deferred close — no tension, no urgency"
+  },
+  {
+    "id": 91,
+    "scenario_type": "cultural_variant",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "France",
+    "setup": "Parisian match. She's intellectual, dry, and slow to warm up. Highly skeptical of enthusiasm.",
+    "exchange": [
+      {"sender": "user", "message": "Tu sembles avoir une théorie sur tout"},
+      {"sender": "agent", "message": "j'en ai effectivement"},
+      {"sender": "user", "message": "Jeudi soir — débat en personne"},
+      {"sender": "agent", "message": "ça peut se faire"}
+    ],
+    "principle": "French context: understate everything — enthusiasm is suspicious, directness is respected, brevity is cultured",
+    "failure_variant": "Bonjour!! Tu es tellement intéressante! J'adorerais te connaître mieux! Tu es libre cette semaine peut-être?",
+    "failure_reason": "Double exclamation marks + excessive enthusiasm reads as desperate or American — 'peut-être' hedges the ask further"
+  },
+  {
+    "id": 92,
+    "scenario_type": "cultural_variant",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "UK",
+    "setup": "British match. She's dry, uses self-deprecating humor, and finds overt confidence 'a bit much'.",
+    "exchange": [
+      {"sender": "user", "message": "Your profile is suspiciously normal"},
+      {"sender": "agent", "message": "I've hidden the weird well"},
+      {"sender": "user", "message": "Thursday to expose it properly?"},
+      {"sender": "agent", "message": "go on then"}
+    ],
+    "principle": "UK context: understate, use dry humor, 'go on then' is a yes — don't push for enthusiasm that won't come",
+    "failure_variant": "Oh my gosh you're so funny!! I love your sense of humor! Would you maybe want to grab drinks sometime? Could be really fun!!",
+    "failure_reason": "Excessive enthusiasm and exclamation marks are red flags in British dating culture — feels performative and hollow"
+  },
+  {
+    "id": 93,
+    "scenario_type": "cultural_variant",
+    "difficulty": "hard",
+    "archetype": "standard",
+    "cultural_context": "Germany",
+    "setup": "German match. She's direct, values authenticity, finds small talk a waste of time.",
+    "exchange": [
+      {"sender": "user", "message": "Your profile is direct. I like that"},
+      {"sender": "agent", "message": "I don't see the point in being indirect"},
+      {"sender": "user", "message": "Neither do I. Thursday 7pm — coffee or drinks?"},
+      {"sender": "agent", "message": "drinks work"},
+      {"sender": "user", "message": "Good. I'll send the location"}
+    ],
+    "principle": "German context: skip the banter, go direct quickly — it's not rude, it's respected",
+    "failure_variant": "Haha yeah I love directness too! So what do you like to do for fun? Where are you from originally? What are you looking for here?",
+    "failure_reason": "Fires a volley of small talk questions immediately after agreeing small talk is pointless — lacks self-awareness"
+  },
+  {
+    "id": 94,
+    "scenario_type": "cultural_variant",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "Latin",
+    "setup": "Colombian match. She's warm, expressive, values passion and confidence. Met at a salsa social.",
+    "exchange": [
+      {"sender": "user", "message": "Tu sonrisa se nota incluso por texto"},
+      {"sender": "agent", "message": "jaja eso es mucho decir"},
+      {"sender": "user", "message": "El viernes — te enseño lo que aprendí observándote bailar"},
+      {"sender": "agent", "message": "ay dios, eso sí que fue directo 😂 sí, el viernes"}
+    ],
+    "principle": "Latin context: expressive compliments land differently — passion and confidence are expected, not seen as needy",
+    "failure_variant": "Hola! Fue chévere conocerte en el evento. Eres muy guapa. ¿Quizás te gustaría salir algún día?",
+    "failure_reason": "'Quizás' and 'algún día' — hedging is not charming in Latin culture where directness is the norm"
+  },
+  {
+    "id": 95,
+    "scenario_type": "cultural_variant",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "Scandinavia",
+    "setup": "Swedish match. She's egalitarian, finds overt status displays off-putting, values equality and naturalness.",
+    "exchange": [
+      {"sender": "user", "message": "You seem like you'd be good company without trying too hard"},
+      {"sender": "agent", "message": "that's probably the best compliment I've gotten on here"},
+      {"sender": "user", "message": "Thursday — coffee, split the bill"},
+      {"sender": "agent", "message": "perfect, yes"}
+    ],
+    "principle": "Scandinavian context: offer to split early — it's not weakness, it's respect for equality — avoid status posturing",
+    "failure_variant": "I'll take you to the best restaurant in the city — money is no object! I love treating a woman right!",
+    "failure_reason": "Overt financial display is a red flag in egalitarian dating cultures — reads as transactional and uncomfortable"
+  },
+  {
+    "id": 96,
+    "scenario_type": "cultural_variant",
+    "difficulty": "hard",
+    "archetype": "hot_and_cold",
+    "cultural_context": "UK",
+    "setup": "British woman. Flirty but in a very understated way. You have to read the subtext.",
+    "exchange": [
+      {"sender": "agent", "message": "you're not completely terrible I suppose"},
+      {"sender": "user", "message": "High praise. Thursday?"},
+      {"sender": "agent", "message": "I could probably manage that"},
+      {"sender": "user", "message": "7pm. That pub on the corner"},
+      {"sender": "agent", "message": "I suppose that works"}
+    ],
+    "principle": "UK context: 'I could probably manage that' is a yes — don't push for more enthusiasm or you'll seem needy",
+    "failure_variant": "Haha do you actually want to go or are you just being polite? I can't tell if you're interested! Just be straight with me!",
+    "failure_reason": "Demanding emotional clarity from a British woman who uses irony as connection — tone-deaf to the cultural register"
+  },
+  {
+    "id": 97,
+    "scenario_type": "cultural_variant",
+    "difficulty": "easy",
+    "archetype": "warm",
+    "cultural_context": "Latin",
+    "setup": "Mexican app match. She's warm, family-oriented, responds well to confident but respectful energy.",
+    "exchange": [
+      {"sender": "user", "message": "Tu perfil tiene mucha personalidad"},
+      {"sender": "agent", "message": "jaja gracias, es lo que me dicen"},
+      {"sender": "user", "message": "El jueves — café y cuéntame más"},
+      {"sender": "agent", "message": "me parece bien, sí"}
+    ],
+    "principle": "Latin context: warmth and interest in her personality are not weakness — confidence and respect are both expected",
+    "failure_variant": "Hola! Qué bonita estás en tus fotos! Me gustaría salir contigo si tienes ganas? No hay prisa!",
+    "failure_reason": "'Si tienes ganas' and 'no hay prisa' — hedging and removing urgency signals low confidence"
+  },
+  {
+    "id": 98,
+    "scenario_type": "cultural_variant",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "France",
+    "setup": "French woman who is clearly testing whether you'll chase her. She gives deliberately minimal engagement.",
+    "exchange": [
+      {"sender": "agent", "message": "hmm"},
+      {"sender": "user", "message": "Exactement"},
+      {"sender": "agent", "message": "😏"},
+      {"sender": "user", "message": "Vendredi soir — décide-toi"},
+      {"sender": "agent", "message": "vendredi ça va"}
+    ],
+    "principle": "French context: matching her economy of words signals confidence — don't fill silence, let it breathe",
+    "failure_variant": "Haha tu ne parles pas beaucoup! C'est difficile de savoir ce que tu penses! Tu veux vraiment sortir ou pas? Dis-moi franchement!",
+    "failure_reason": "Asking her to decode her own mystery removes the mystery — French dating culture rewards patience with ambiguity"
+  },
+  {
+    "id": 99,
+    "scenario_type": "cultural_variant",
+    "difficulty": "hard",
+    "archetype": "dead_texter",
+    "cultural_context": "Scandinavia",
+    "setup": "Danish match. Very minimal texting, purely practical, no emotional investment shown over text.",
+    "exchange": [
+      {"sender": "user", "message": "Thursday 7pm — coffee near [location]?"},
+      {"sender": "agent", "message": "yes works"},
+      {"sender": "user", "message": "Good. See you there"},
+      {"sender": "agent", "message": "👍"}
+    ],
+    "principle": "Scandinavian context: minimal texting is cultural, not disinterest — logistics only is perfectly normal",
+    "failure_variant": "Hey! Are you actually excited about this? I can't tell haha. Maybe text me a bit more so I can get a feel for you before we meet?",
+    "failure_reason": "Demands emotional expression that contradicts cultural norms — would read as emotionally insecure and high-maintenance"
+  },
+  {
+    "id": 100,
+    "scenario_type": "cultural_variant",
+    "difficulty": "medium",
+    "archetype": "standard",
+    "cultural_context": "UK",
+    "setup": "British woman who deflects compliments with humor. Direct compliments make her uncomfortable.",
+    "exchange": [
+      {"sender": "user", "message": "You seem like someone with strong opinions on tea"},
+      {"sender": "agent", "message": "I could write a dissertation"},
+      {"sender": "user", "message": "I'd read it. Thursday — defend your thesis"},
+      {"sender": "agent", "message": "this is the most compelling invitation I've had"}
+    ],
+    "principle": "UK context: frame the date intellectually/humorously — British women often find direct emotional appeals awkward",
+    "failure_variant": "You're really beautiful and seem super interesting! I'd love to take you out if you'd like that? Could be really nice!",
+    "failure_reason": "Direct looks-based compliment + emotional framing makes a British woman cringe — too earnest, too soon"
+  }
+]
